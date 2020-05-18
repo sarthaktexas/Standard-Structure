@@ -2,12 +2,17 @@
 
 ## Basic
 
+[Example Application](examples/basic/)
+
 ```
 ┏bin
+┃ ┗main.dart
 ┃
 ┣lib
+┃ ┗basic.dart
 ┃
 ┗test
+  ┗basic_test.dart
 ```
 
 ### `bin`
