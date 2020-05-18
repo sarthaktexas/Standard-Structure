@@ -24,14 +24,14 @@ export function add(one: number, two: number){
 
 ### `deps.ts`
 
-You can optionally import your external dependencies in a `deps.ts` file
+You can optionally save your external dependencies in a `deps.ts` file.
 
 #### Example
 ```ts
 export * from "https://deno.land/std/http/mod.ts";
 export * from "https://deno.land/x/oak/mod.ts";
 ```
-Then, import your dependencies:
+Then, import your dependencies elsewhere:
 ```ts
 import { serve, Application } from "./deps.ts";
 ```
