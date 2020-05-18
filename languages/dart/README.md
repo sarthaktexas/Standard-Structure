@@ -1,6 +1,6 @@
 # 🎯 Dart
 
-## Basics
+## Basic
 
 ```
 ┏bin
