@@ -1,17 +1,19 @@
 # How to Contribute
 
-Hello! Thank you so much for showing interest in Standard-Structure. Below is the process you should take if you want to contribute.
+Hello! Thank you so much for showing interest in Standard-Structure.
 
 ## Before you start
 
-1. Make sure the file structure you are planning on adding isn't already part of the project.
+1. Make sure the file structure you are planning on adding isn't already:
+  - Part of the project
+  - Part of a PR waiting to be merged
 
-## Adding a new framework or language
+## Adding a new framework or language project structure
 
-To add a framework or language that isn't already part of Standard-Structure do the following:
+To add the structure for framework or language that isn't already part of this project, do the following:
 
-1. Make the folder with the name of the framework or language under either `/frameworks` or `/languages`.
-2. Inside of that folder make a `README.md` and a `examples` directory.
+1. Make a directory with the name of that framework or language under `/frameworks` or `/languages`, respectively.
+2. Inside of that directory create a `README.md` and an `examples` directory.
 
 ### `README.md`
 
@@ -29,6 +31,10 @@ The inside of the README.md is where most of the information is located. There i
 ```
 
 Once you've added the file tree add a `###` with the folder name for each folder. Inside add a description of the folder describing its purpose in the scope of the project.
+
+### `examples` directory
+
+In the `examples` directory, create the structure described in your `README.md` and link to the example project above the file tree in your `README.md`.
 
 ### Example `README.md`
 
@@ -62,7 +68,3 @@ lib is where most of the code for a dart project goes.
 
 test holds all the unit tests for the project.
 ````
-
-### Actual Example
-
-In the `examples` directory you created before add an actual basic project and link to it in your `README.md` above the file tree as seen in the example `README.md` above
