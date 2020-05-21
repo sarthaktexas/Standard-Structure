@@ -4,7 +4,7 @@
 
 [Example Application](examples/basic/)
 ​​​​```
-┏app.py
+┏main.py
 ┃
 ┣static
 ┃ ┗script.js
@@ -16,14 +16,14 @@
 
 ​​​​```
 
-### `bin`
+### `main.py`
 
-bin really only holds `main.dart` which is the entry point to the program
+main.py is where you write your python code!
 
-### `lib`
+### `static`
 
-lib is where most of the code for a dart project goes.
+static is where all your static web assets go (css, js, images etc.).
 
-### `test`
+### `templates`
 
-test holds all the unit tests for the project.
+templates holds all the html files for the project.
