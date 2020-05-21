@@ -3,7 +3,8 @@
 ## Basic
 
 [Example Application](examples/basic/)
-​​​​```
+
+```
 ┏main.py
 ┃
 ┣static
@@ -14,7 +15,7 @@
 ┗templates
   ┗index.html
 
-​​​​```
+```
 
 ### `main.py`
 
