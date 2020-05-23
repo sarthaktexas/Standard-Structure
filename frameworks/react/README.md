@@ -36,3 +36,7 @@ This is the place where everything begins. It's where your app coalesces, and al
 ### `src/<name>.spec.js`
 
 React's choice of testing framework is [`Jest`](https://jestjs.io), which is one of the industry standards for unit testing. `spec` files hold tests for a certain part of your app.
+
+### `yarn.lock` & `package.json`
+
+React uses `yarn` instead of `npm` (Yarn introduced concurrent package installation first, and it's a pretty good practice to use it), and these files hold metadata about your project as well as fixed dependency versions. `yarn.lock` should NEVER be changed manually.
