@@ -22,3 +22,7 @@ This folder holds all of the files that React is built into. All browsers need s
 ### `src/`
 
 This is where all the magic happens. All of your source files will be located in this directory, from the styles to the hardcore view updating and model storage.
+
+### `src/index.js`
+
+This is where your entire app gets loaded into the DOM in `public/index.html`. It should be kept to a minimum.
