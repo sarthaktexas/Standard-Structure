@@ -4,11 +4,11 @@
 
 ## 🌎 Languages
 
-- 🎯 Dart
-- 🦀 Rust
-- 🦕 Deno
+- 🎯 [Dart](languages/dart)
+- 🦀 [Rust](languages/rust)
 
 ## 🖼️ Frameworks
 
-- 🌶 Flask
-- ⚛️ React
+- ⚛️ [React](frameworks/react)
+- 🌶 [Flask](frameworks/flask)
+- 🦕 [Deno](frameworks/deno)
