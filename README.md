@@ -5,8 +5,8 @@
 ## 🌎 Languages
 
 - 🎯 Dart
+- 🦕 Deno
 
 ## 🖼️ Frameworks
 
 - 🌶 Flask
-
