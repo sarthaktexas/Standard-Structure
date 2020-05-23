@@ -32,3 +32,7 @@ This is where your entire app gets loaded into the DOM in `public/index.html`. I
 ### `src/App.js`
 
 This is the place where everything begins. It's where your app coalesces, and all the components are brought together. This exports a single component, which is fed into `index.js`.
+
+### `src/<name>.spec.js`
+
+React's choice of testing framework is [`Jest`](https://jestjs.io), which is one of the industry standards for unit testing. `spec` files hold tests for a certain part of your app.
