@@ -5,6 +5,7 @@
 ## 🌎 Languages
 
 - 🎯 Dart
+- 🦀 Rust
 - 🦕 Deno
 
 ## 🖼️ Frameworks
