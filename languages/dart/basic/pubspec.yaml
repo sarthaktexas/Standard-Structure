@@ -1,5 +1,5 @@
-name: basics
-description: A basic dart application
+name: basic
+description: A sample command-line application.
 
 environment:
   sdk: '>=2.7.0 <3.0.0'

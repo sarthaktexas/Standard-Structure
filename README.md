@@ -6,3 +6,7 @@
 
 - 🎯 Dart
 - 🦕 Deno
+
+## 🖼️ Frameworks
+
+- 🌶 Flask
