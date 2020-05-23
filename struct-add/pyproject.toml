@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "struct-add"
+version = "0.1.0"
+description = "Automation CLI for Standard-Structure"
+authors = ["Matthew Gleich <matthewgleich@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
