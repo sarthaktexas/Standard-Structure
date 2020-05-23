@@ -2,7 +2,7 @@
 
 ## Basic
 
-[Example Application](examples/basic/)
+[Minimal Application Template](basic/)
 
 ```
 ┏main.py
