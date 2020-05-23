@@ -6,8 +6,8 @@
 
 - 🎯 Dart
 - 🦀 Rust
+- 🦕 Deno
 
 ## 🖼️ Frameworks
 
 - 🌶 Flask
-
