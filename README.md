@@ -11,3 +11,4 @@
 ## 🖼️ Frameworks
 
 - 🌶 Flask
+- ⚛️ React
