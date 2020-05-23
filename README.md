@@ -4,5 +4,5 @@
 
 ## 🌎 Languages
 
-- 🎯 [Dart](languages/dart/README.md)
-- 🦕 [Deno](languages/deno/README.md)
+- 🎯 Dart
+- 🦕 Deno
