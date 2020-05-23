@@ -9,5 +9,6 @@
 
 ## 🖼️ Frameworks
 
+- ⚛️ [React](frameworks/react)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
