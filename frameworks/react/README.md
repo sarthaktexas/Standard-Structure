@@ -10,6 +10,8 @@
 ┃
 ┣src
 ┃ ┗index.js
+┃ ┗App.js
+┃ ┗<name>.spec.js
 ┃
 ┗public
   ┗index.html
@@ -26,3 +28,7 @@ This is where all the magic happens. All of your source files will be located in
 ### `src/index.js`
 
 This is where your entire app gets loaded into the DOM in `public/index.html`. It should be kept to a minimum.
+
+### `src/App.js`
+
+This is the place where everything begins. It's where your app coalesces, and all the components are brought together. This exports a single component, which is fed into `index.js`.
