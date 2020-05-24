@@ -10,4 +10,4 @@ jobs:
       - uses: joelwmale/webhook-action@master
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
-          data: '{"value1" : "${{ env.POST_COMMIT_MESSAGE }}"}'
+          data: "{\"value1\" : \"${{ env.POST_COMMIT_MESSAGE }}\"}"
