@@ -13,6 +13,6 @@
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
 
-<hr style = "border-top: 1px solid #eaecef;">
+<h1></h1>
 
 🐦 Follow us on Twitter [@StandardStruct](https://twitter.com/StandardStruct)
