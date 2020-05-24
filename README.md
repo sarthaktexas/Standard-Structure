@@ -14,6 +14,7 @@
 
 ## 🖼️ Frameworks
 
+<<<<<<< HEAD
 [![Jekyll](https://img.shields.io/static/v1?label=Framework&message=Jekyll&color=CC0000&logo=Jekyll&logoColor=white&style=for-the-badge)](frameworks/jekyll)
 
 [![React](http://img.shields.io/static/v1?label=Framework&message=React&color=46a3bd&logo=react&logoColor=white&style=for-the-badge)](frameworks/react)
@@ -25,3 +26,9 @@
 [![Flask](https://img.shields.io/static/v1?label=Framework&message=Flask&color=black&logo=flask&logoColor=white&style=for-the-badge)](frameworks/flask)
 
 [![Flutter](https://img.shields.io/static/v1?label=Framework&message=Flutter&color=52C0F2&logo=flutter&logoColor=white&style=for-the-badge)](frameworks/flutter)
+=======
+- ⚛️ [React](frameworks/react)
+- 🌶 [Flask](frameworks/flask)
+- 🦕 [Deno](frameworks/deno)
+- :seedling: [Spring Boot](frameworks/spring-boot)
+>>>>>>> added to readme
