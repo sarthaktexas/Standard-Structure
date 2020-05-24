@@ -7,7 +7,9 @@ jobs:
       - uses: actions/checkout@v1
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)" && echo '${{ env.POST_COMMIT_MESSAGE }}'
-      - uses: joelwmale/webhook-action@master
-        env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
-          data: "{'value1' : '${{ env.POST_COMMIT_MESSAGE }}'}"
+      - name: "Let's my IFTTT know this"
+        uses: cixo/ifttt-trigger@v0.3
+        with:
+          key: "${{ secrets.WEBHOOK_URL }}"
+          event: "stand_struct_tweet_1"
+          value1: "test"
