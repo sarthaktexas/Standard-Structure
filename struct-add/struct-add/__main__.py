@@ -10,7 +10,7 @@ def main():
     location = ask.location()
     os.chdir(location)
     if not os.path.exists('../README.md'):
-        # with open('../README.md')
+        readme.initializeMain()
     readme.add_to_toc(location.split('/')[-2])
 
 

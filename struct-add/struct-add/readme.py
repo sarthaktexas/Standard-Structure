@@ -5,14 +5,13 @@ def initializeMain():
     '''Initialize the main README.md for either language or framework
     '''
     formal_name = input(
-        "\n What is the formal name (put in main project README)?:")
-    template = '''
-# {}
+        "\nWhat is the formal name (put in main project README)?:\n\n")
+    template = f'''# {formal_name}
 
 | 🏗️ Structure Name | 📚 Description |
 |-------------------|----------------|
 <!--END OF TOC, DO NOT REMOVE-->
-'''.format(formal_name)
+'''
     with open('../README.md', 'w') as readme:
         readme.write(template)
 
@@ -25,19 +24,17 @@ def initialize(structure_name, tree, folders):
         tree {str} -- File tree
         folders {list} -- all the folders in the file tree
     '''
-    template = '''
-# {}
+    template = f'''# {structure_name}
 
 ```
-{}
+{tree}
 ```
 '''
     for folder in folders:
         template = template + \
-            '\n\n#`{}`\n\nA short description of what is in this folder'.format(
-                folder)
+            f'\n\n#`{folder}`\n\nA short description of what is in this folder'
     with open('./struct.md', 'w') as struct:
-        struct.write(template)
+        struct.write(template.format(structure_name, tree))
 
 
 def add_to_toc(structure_name):
@@ -47,7 +44,15 @@ def add_to_toc(structure_name):
         structure_name {str} -- name of the new structure
     '''
     with open('../README.md') as readme:
-        lines = readme.readlines()
-    for i in range(len(lines)):
-        if lines[i].strip() == '<!--END OF TOC, DO NOT REMOVE-->':
-            lines.insert(i - 1, '  - [{n}](#{n})'.format(n=structure_name))
+        lines = list(readme.readlines())
+    print(type(lines))
+    description = input(
+        '\nWhat is the description of the structure you are adding (1 - 2 sentences)?:\n\n')
+    updated_lines = []
+    for line in lines:
+        if line.strip() == '<!--END OF TOC, DO NOT REMOVE-->' and f'| [{structure_name}](./{structure_name}) | {description} |\n' not in lines:
+            updated_lines.append(
+                f'| [{structure_name}](./{structure_name}) | {description} |\n')
+        updated_lines.append(line)
+    with open('../README.md', 'w') as readme:
+        readme.writelines(updated_lines)
