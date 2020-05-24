@@ -7,12 +7,13 @@
 <!--- This project only accepts pull requests related to open issues -->
 <!--- If suggesting a new feature or change, please discuss it in an issue first -->
 <!--- If fixing a bug, there should be an issue describing it with steps to reproduce -->
-<!--- Please link to the issue here: -->
+
+<!--- Please link to the issue here, by entering "Closes #10" (fill in the issue number, please) -->
 
 ## Motivation and Context
 <!--- Why is this change required? What problem does it solve? Alternatively, what framework or language does it add? -->
 
-## Screenshots (if appropriate):
+## Screenshots (if applicable):
 
 ## Types of changes
 <!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
