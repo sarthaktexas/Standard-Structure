@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v1
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-        if: contains(${{ steps.log.output.message }}, 'New Framework:')
+      - if: contains(${{ steps.log.output.message }}, 'New Framework:')
       - uses: ethomson/send-tweet-action@v1
         with:
           status: "${{ steps.log.output.message }}"
