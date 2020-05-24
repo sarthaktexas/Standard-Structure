@@ -14,3 +14,4 @@
 - ⚛️ [React](frameworks/react)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
+- :seedling: [Spring Boot](frameworks/spring-boot)
