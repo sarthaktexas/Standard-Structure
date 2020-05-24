@@ -8,7 +8,7 @@ jobs:
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
       - uses: ethomson/send-tweet-action@v1
-        if: contains(${{ steps.log.output.message }}, New Framework:)
+        if: contains(${{ steps.log.output.message }}, 'New Framework:')
         with:
           status: "NEW POST: ${{ steps.log.output.message }}"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
