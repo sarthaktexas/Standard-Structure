@@ -2,7 +2,7 @@ import os
 
 
 def location():
-    """Get the location of structure
+    '''Get the location of structure
 
     Raises:
         Exception: Error if language or framework isn't chosen
@@ -10,13 +10,13 @@ def location():
 
     Returns:
         str -- path of structure
-    """
+    '''
     path = ''
     print(
-        """
+        '''
 👋 Hello! Thank you for contributing to Standard-Structure!
 Below are some questions about the structure you are trying to add:
-    """
+    '''
     )
     lang_or_frame = input('Is it a language or a framework? (l or f): ')
     if 'f' == lang_or_frame.lower():
@@ -31,11 +31,6 @@ Below are some questions about the structure you are trying to add:
     lang_or_frame_name = input(
         'What is the name of the technology or framework in standard structure?: ')
     path = path + lang_or_frame_name + '/'
-    if not os.path.exists(path):
-        raise Exception("Looks like {} doesn't exist".format(path))
-
-    structure = input('What is name of structure?: ')
-    path = path + structure + '/'
     if not os.path.exists(path):
         raise Exception("Looks like {} doesn't exist".format(path))
 
