@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - id: log
-        run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
+        run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)" && echo '${{ env.POST_COMMIT_MESSAGE }}'
       - uses: joelwmale/webhook-action@master
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
