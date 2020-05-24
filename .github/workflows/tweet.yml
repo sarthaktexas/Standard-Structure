@@ -1,5 +1,8 @@
 name: Send a Tweet to @StandardStruct (Follow Us)
-on: [push]
+on: 
+  push:
+    branches:
+      - master
 jobs:
   tweet-prep:
     runs-on: ubuntu-latest
