@@ -1,4 +1,4 @@
-name: Send a Tweet To @StandardStruct
+name: Send a Tweet to @StandardStruct
 on: [push]
 jobs:
   tweet-prep:
