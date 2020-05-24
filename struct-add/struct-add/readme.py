@@ -1,19 +1,43 @@
 import os
 
 
-def initialize():
-    '''Initialize the README.md file
+def initializeMain():
+    '''Initialize the main README.md for either language or framework
     '''
     formal_name = input(
-        '\n What is the formal name (put in main project README)?:')
+        "\n What is the formal name (put in main project README)?:")
     template = '''
 # {}
 
-
+| 🏗️ Structure Name | 📚 Description |
+|-------------------|----------------|
 <!--END OF TOC, DO NOT REMOVE-->
 '''.format(formal_name)
     with open('../README.md', 'w') as readme:
         readme.write(template)
+
+
+def initialize(structure_name, tree, folders):
+    '''Initialize the struct.md file
+
+    Arguments:
+        structure_name {str} -- Name of the structure
+        tree {str} -- File tree
+        folders {list} -- all the folders in the file tree
+    '''
+    template = '''
+# {}
+
+```
+{}
+```
+'''
+    for folder in folders:
+        template = template + \
+            '\n\n#`{}`\n\nA short description of what is in this folder'.format(
+                folder)
+    with open('./struct.md', 'w') as struct:
+        struct.write(template)
 
 
 def add_to_toc(structure_name):
