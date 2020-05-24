@@ -7,10 +7,10 @@ jobs:
       - uses: actions/checkout@v1
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-      - if: contains(${{ steps.log.output.message }}, 'New Framework:')
-        uses: ethomson/send-tweet-action@v1
+      - uses: ethomson/send-tweet-action@v1
+        if: contains(${{ env.POST_COMMIT_MESSAGE }}, 'New Framework:')
         with:
-          status: "${{ steps.log.output.message }}"
+          status: "${{ env.POST_COMMIT_MESSAGE }}"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
