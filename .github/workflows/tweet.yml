@@ -12,4 +12,4 @@ jobs:
         with:
           key: "${{ secrets.WEBHOOK_URL }}"
           event: "stand_struct_tweet_1"
-          value1: "test"
+          value1: "${{ env.POST_COMMIT_MESSAGE }}"
