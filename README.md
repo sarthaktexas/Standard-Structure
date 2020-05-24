@@ -1,5 +1,7 @@
 # Standard-Structure
 
+[![@StandardStruct on Twitter](https://img.shields.io/twitter/follow/StandardStruct?style=social)](https://twitter.com/StandardStruct/)
+
 📂 A showcase of standard, scalable project structures for a variety of languages and frameworks.
 
 ## 🌎 Languages
@@ -12,3 +14,7 @@
 - ⚛️ [React](frameworks/react)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
+
+<h1></h1>
+
+🐦 Follow us on Twitter [@StandardStruct](https://twitter.com/StandardStruct)
