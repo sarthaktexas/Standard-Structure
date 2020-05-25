@@ -15,3 +15,4 @@
 - ⚛️ [React](frameworks/react)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
+- 🔴  [Jekyll](frameworks/jekyll)
