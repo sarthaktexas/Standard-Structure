@@ -2,10 +2,9 @@
 ## Minimal Template
 
 ```
-┏━src
-┃ ┗━main.rs
-┃
-┗━Cargo.toml
+├── src/
+│   └── main.rs
+└── Cargo.toml
 ```
 
 ### `src/`

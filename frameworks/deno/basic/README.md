@@ -2,9 +2,9 @@
 ## Basic Package Structure
 
 ```
-┏━ mod.ts
-┃
-┗━ deps.ts
+├── mod.ts
+│
+└── deps.ts
 ```
 
 ### `mod.ts`

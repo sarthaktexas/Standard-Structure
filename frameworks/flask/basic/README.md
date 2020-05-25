@@ -2,16 +2,13 @@
 ## Minimal Application Template
 
 ```
-┏━main.py
-┃
-┣━static
-┃ ┗━script.js
-┃ ┗━style.css
-┃ ┗━image.png
-┃
-┗━templates
-  ┗━index.html
-
+├── main.py
+├── static/
+│   ├── script.js
+│   ├── style.css
+│   └── image.png
+└── templates/
+    └── index.html
 ```
 
 ### `main.py`

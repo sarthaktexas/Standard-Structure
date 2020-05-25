@@ -3,16 +3,14 @@
 ## Minimal Application Template
 
 ```
-┏━yarn.lock
-┣━package.json
-┃
-┣━src
-┃ ┗━index.js
-┃ ┗━App.js
-┃ ┗━<name>.spec.js
-┃
-┗━public
-  ┗━index.html
+├── yarn.lock
+├── package.json
+├── src/
+│   ├── index.js
+│   ├── App.js
+│   └── <name>.spec.js
+└── public/
+    └── index.html
 ```
 
 ### `public/`

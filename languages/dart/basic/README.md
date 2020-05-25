@@ -2,14 +2,12 @@
 ## Minimal Template
 
 ```
-┏━bin
-┃ ┗━main.dart
-┃
-┣━lib
-┃ ┗━basic.dart
-┃
-┗━test
-  ┗━basic_test.dart
+├── bin/
+│   └── main.dart
+├── lib/
+│   └── basic.dart
+└── test/
+    └── basic_test.dart
 ```
 
 ### `bin/`
