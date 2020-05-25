@@ -3,3 +3,4 @@
 | Structure | Description |
 |-----------|-------------|
 | [Basic Package Structure](basic/) | A starting point for a Deno package, written in TypeScript. |
+<!--END OF TOC, DO NOT REMOVE-->
