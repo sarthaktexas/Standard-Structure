@@ -1,4 +1,4 @@
-# 🦀 [Rust](rust-lang.org)
+![Rust](http://img.shields.io/static/v1?label=Language&message=Rust&color=black&logo=rust&logoColor=white&style=for-the-badge)
 ## Minimal Template
 
 ```
