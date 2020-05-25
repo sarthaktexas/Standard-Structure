@@ -13,5 +13,6 @@
 ## 🖼️ Frameworks
 
 - ⚛️ [React](frameworks/react)
+- 👀 [Vue](frameworks/vue)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
