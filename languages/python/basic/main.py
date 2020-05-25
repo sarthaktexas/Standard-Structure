@@ -1,12 +1,6 @@
-from pyfiglet import Figlet
-
 def main():
-    
-    custom_fig = Figlet(font = "banner3")
 
-    ascii_banner = custom_fig.renderText("Hello World")
-
-    print(ascii_banner)
+    print("Hello World")
 
 
 if __name__ == "__main__":

@@ -2,5 +2,5 @@
 
 | 🏗️ Structure Name | 📚 Description |
 |-------------------|----------------|
-| [basic](./basic) | Basic structure to use python with a requirements.txt file |
+| [basic](./basic) | The most basic structure to use python. |
 <!--END OF TOC, DO NOT REMOVE-->
