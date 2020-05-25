@@ -15,4 +15,5 @@
 - ⚛️ [React](frameworks/react)
 - 🌶 [Flask](frameworks/flask)
 - 🦕 [Deno](frameworks/deno)
-[![Jekyll](https://img.shields.io/static/v1?label=Framework&message=Jekyll&color=CC0000&logo=Jekyll&logoColor=white&style=for-the-badge)](frameworks/flask)
+
+[![Jekyll](https://img.shields.io/static/v1?label=Framework&message=Jekyll&color=CC0000&logo=Jekyll&logoColor=white&style=for-the-badge)](frameworks/jekyll)
