@@ -1,5 +1,4 @@
-# ⚛️ [React](https://reactjs.org/)
-
+![React](http://img.shields.io/static/v1?label=Framework&message=React&color=46a3bd&logo=react&logoColor=white&style=for-the-badge)
 ## Minimal Application Template
 
 ```
