@@ -5,15 +5,15 @@
 [Minimal Application Template](basic/)
 
 ```
-┏main.py
+┏━main.py
 ┃
-┣static
-┃ ┗script.js
-┃ ┗style.css
-┃ ┗image.png
+┣━static
+┃ ┗━script.js
+┃ ┗━style.css
+┃ ┗━image.png
 ┃
-┗templates
-  ┗index.html
+┗━templates
+  ┗━index.html
 
 ```
 
