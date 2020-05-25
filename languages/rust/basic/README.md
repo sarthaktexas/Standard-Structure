@@ -1,12 +1,5 @@
 # 🦀 [Rust](rust-lang.org)
-
-| Structure | Description |
-|-----------|-------------|
-| [Minimal Template](basic/) | A starting point for a Rust project. |
-
-## Basic
-
-[Minimal Template](basic/)
+## Minimal Template
 
 ```
 ┏━src
@@ -15,7 +8,7 @@
 ┗━Cargo.toml
 ```
 
-### `src`
+### `src/`
 
 `src/` is just the folder that holds all your source files.
 
