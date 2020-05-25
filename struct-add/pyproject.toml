@@ -6,9 +6,9 @@ authors = ["Matthew Gleich <matthewgleich@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+pathlib = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.4.2"
 
 [build-system]
 requires = ["poetry>=0.12"]
