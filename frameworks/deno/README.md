@@ -6,6 +6,12 @@ Deno has no required package structure, but the following structure is used by D
 
 [Minimal Application Template](basic/)
 
+```
+┏━mod.ts
+┃
+┗━deps.ts
+```
+
 ### `mod.ts`
 
 This file is the entrypoint to your package. Here, you can import classes and functions from other files, or you can write the program entirely in `mod.ts`.
