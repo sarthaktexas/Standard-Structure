@@ -5,26 +5,26 @@
 [Minimal Application Template](basic/)
 
 ```
-┏main.py
+┏━main.py
 ┃
-┣static
-┃ ┗script.js
-┃ ┗style.css
-┃ ┗image.png
+┣━static
+┃ ┗━script.js
+┃ ┗━style.css
+┃ ┗━image.png
 ┃
-┗templates
-  ┗index.html
+┗━templates
+  ┗━index.html
 
 ```
 
 ### `main.py`
 
-main.py is where you write your python code!
+`main.py` is where you write your python code!
 
 ### `static`
 
-static is where all your static web assets go (css, js, images etc.).
+`static` is where all your static web assets go (css, js, images etc.).
 
 ### `templates`
 
-templates holds all the html files for the project.
+`templates` holds all the html files for the project.

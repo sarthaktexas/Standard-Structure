@@ -5,10 +5,10 @@
 [Minimal Template](basic/)
 
 ```
-┏src
-┃ ┗main.rs
+┏━src
+┃ ┗━main.rs
 ┃
-┗Cargo.toml
+┗━Cargo.toml
 ```
 
 ### `src`
