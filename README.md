@@ -8,6 +8,7 @@
 
 - 🎯 [Dart](languages/dart)
 - 🦀 [Rust](languages/rust)
+- 🐍 [Python](languages/python)
 
 ## 🖼️ Frameworks
 
