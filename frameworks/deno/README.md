@@ -2,7 +2,9 @@
 
 Deno has no required package structure, but the following structure is used by Deno's standard library and is recommended in the Deno manual.
 
-## Files
+## Basic
+
+[Minimal Application Template](basic/)
 
 ### `mod.ts`
 
