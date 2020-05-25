@@ -1,0 +1,16 @@
+[[package]]
+category = "main"
+description = "Object-oriented filesystem paths"
+name = "pathlib"
+optional = false
+python-versions = "*"
+version = "1.0.1"
+
+[metadata]
+content-hash = "04f5e1c5235ad8368f139d2a1f593d5af182eddd3d854b5583912cd998d1c69f"
+python-versions = "^3.6"
+
+[metadata.files]
+pathlib = [
+    {file = "pathlib-1.0.1.tar.gz", hash = "sha256:6940718dfc3eff4258203ad5021090933e5c04707d5ca8cc9e73c94a7894ea9f"},
+]
