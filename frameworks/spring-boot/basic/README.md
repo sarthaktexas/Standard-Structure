@@ -3,29 +3,24 @@
 ## Minimal Application Template
 
 ```
-┏src
-┃ main
-┃ ┃ ┗java
-┃ ┃   ┗com
-┃ ┃     ┗<user/org>
-┃ ┃       ┗<artifact>
-┃ ┃         ┣controller
-┃ ┃         ┃ ┗MainController.java
-┃ ┃         ┃
-┃ ┃         ┣dao
-┃ ┃         ┃
-┃ ┃         ┗Application.java
-┃ ┃
-┃ ┗resources
-┃   ┗static
-┃   ┗templates
-┃   ┗application.properties
-┃
-┣test
-┣mvnw
-┣mvnw.cmd
-┗pom.xml
-
+├── src/
+│   ├── test/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── <user/org>/
+│       │           └── <artifact>/
+│       │               ├── controller
+│       │               │   └── MainController.java
+│       │               ├── dao/
+│       │               └── Application.java
+│       └── resources/
+│           ├── static/
+│           ├── templates/
+│           └── application.properties
+├── mvnw/
+│   └── mvnw.cmd
+└── pom.xml
 ```
 
 ### `Application.java`
