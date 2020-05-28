@@ -6,24 +6,24 @@
 
 ## 🌎 Languages
 
-[![Dart](http://img.shields.io/static/v1?label=Language&message=Dart&color=0175c2&logo=dart&logoColor=white&style=for-the-badge)](languages/dart)
+[![Dart](http://img.shields.io/static/v1?label=&message=Dart&color=0175c2&logo=dart&logoColor=white&style=for-the-badge)](languages/dart)
 
-[![Rust](http://img.shields.io/static/v1?label=Language&message=Rust&color=black&logo=rust&logoColor=white&style=for-the-badge)](languages/rust)
+[![Rust](http://img.shields.io/static/v1?label=&message=Rust&color=black&logo=rust&logoColor=white&style=for-the-badge)](languages/rust)
 
-[![Python](http://img.shields.io/static/v1?label=Language&message=Python&color=3776AB&logo=python&logoColor=white&style=for-the-badge)](languages/python)
+[![Python](http://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white&style=for-the-badge)](languages/python)
 
 ## 🖼️ Frameworks
 
-[![Deno](https://img.shields.io/static/v1?label=Framework&message=Deno&color=black&logo=deno&logoColor=white&style=for-the-badge)](frameworks/deno)
+[![Deno](https://img.shields.io/static/v1?label=&message=Deno&color=black&logo=deno&logoColor=white&style=for-the-badge)](frameworks/deno)
 
-[![Flask](https://img.shields.io/static/v1?label=Framework&message=Flask&color=black&logo=flask&logoColor=white&style=for-the-badge)](frameworks/flask)
+[![Flask](https://img.shields.io/static/v1?label=&message=Flask&color=black&logo=flask&logoColor=white&style=for-the-badge)](frameworks/flask)
 
-[![Flutter](https://img.shields.io/static/v1?label=Framework&message=Flutter&color=52C0F2&logo=flutter&logoColor=white&style=for-the-badge)](frameworks/flutter)
+[![Flutter](https://img.shields.io/static/v1?label=&message=Flutter&color=52C0F2&logo=flutter&logoColor=white&style=for-the-badge)](frameworks/flutter)
 
-[![Jekyll](https://img.shields.io/static/v1?label=Framework&message=Jekyll&color=CC0000&logo=Jekyll&logoColor=white&style=for-the-badge)](frameworks/jekyll)
+[![Jekyll](https://img.shields.io/static/v1?label=&message=Jekyll&color=CC0000&logo=Jekyll&logoColor=white&style=for-the-badge)](frameworks/jekyll)
 
-[![React](http://img.shields.io/static/v1?label=Framework&message=React&color=46a3bd&logo=react&logoColor=white&style=for-the-badge)](frameworks/react)
+[![React](http://img.shields.io/static/v1?label=&message=React&color=46a3bd&logo=react&logoColor=white&style=for-the-badge)](frameworks/react)
 
-[![Spring Boot](https://img.shields.io/static/v1?label=Framework&message=Spring%20Boot&color=6DB33F&logo=spring&logoColor=white&style=for-the-badge)](frameworks/spring-boot)
+[![Spring Boot](https://img.shields.io/static/v1?label=&message=Spring%20Boot&color=6DB33F&logo=spring&logoColor=white&style=for-the-badge)](frameworks/spring-boot)
 
-[![Vue](https://img.shields.io/static/v1?label=Framework&message=Vue&color=4FC08D&logo=vue.js&logoColor=white&style=for-the-badge)](frameworks/vue)
+[![Vue](https://img.shields.io/static/v1?label=&message=Vue&color=4FC08D&logo=vue.js&logoColor=white&style=for-the-badge)](frameworks/vue)
