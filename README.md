@@ -27,3 +27,13 @@
 [![Spring Boot](https://img.shields.io/static/v1?label=&message=Spring%20Boot&color=6DB33F&logo=spring&logoColor=white&style=for-the-badge)](frameworks/spring-boot)
 
 [![Vue](https://img.shields.io/static/v1?label=&message=Vue&color=4FC08D&logo=vue.js&logoColor=white&style=for-the-badge)](frameworks/vue)
+
+## Contributing
+
+### Contributing Structures, Languages, or Frameworks
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
+
+### Contributing to the Generation CLI
+
+The generation CLI, also known as `struct-add`, currently lives [in this directory of the Standard-Structure repository](./struct-add/README.md). For details on contributing, please see [Contributing to the Generation CLI](./docs/Contributing%20to%20Generation%20CLI.md).
